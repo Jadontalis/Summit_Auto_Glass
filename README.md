@@ -19,7 +19,7 @@ Part of the frontend stack is deployed via Amazon Web Services. That's accomplis
 
 ---> *Backend* <---
 
-For backend components, MongoDB was the NoSQL choice to handle the database with JVM Spring Boot to manage data entries and connect the bridge between the back and front end, completing the stack. Overall, a very classic tech stack that is easy to implement and scale. Refactoring may become an issue, but as SuperFastMatt puts it, "Certified Good Enough" 😉.
+For backend goodies, MongoDB was the NoSQL choice to handle the database with JVM Spring Boot to manage data entries and connect the bridge between the back and front end, completing the stack. Overall, a very classic tech stack that is easy to implement and scale. Refactoring may become an issue, but as SuperFastMatt puts it, "Certified Good Enough" 😉.
 
 -----------------------------------------------------
 
