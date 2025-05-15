@@ -1,10 +1,10 @@
 import React from 'react'
 import './Footer.css'
 
-const Footer = () => {
+export function Footer() {
   return (
-    <div>Footer</div>
+     <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Summit Auto Glass, LLC | All Rights Reserved.</p>
+    </footer>
   )
 }
-
-export default Footer
