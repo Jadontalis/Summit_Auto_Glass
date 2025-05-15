@@ -1,13 +1,21 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
-import { Hero } from "./Components/Hero/Hero";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Home } from './Pages/Home'
+import { Contact } from "./Pages/Contact Page/contact";
+import { Services } from "./Pages/Services Page/Services";
+import { Company } from "./Pages/Company Page/company";
+
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
-      <Hero/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/services" element={<Services/>}/>
+        <Route path="/company" element={<Company/>}/>
+      </Routes>
+    </Router>
   )
 }
 
