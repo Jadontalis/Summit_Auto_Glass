@@ -10,7 +10,6 @@ export function Home() {
    <Hero />
    <HomeContentSection />
    <Footer/>
-   
    </>
   )
 }
