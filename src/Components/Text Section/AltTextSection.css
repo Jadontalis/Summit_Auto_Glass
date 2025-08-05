@@ -1,0 +1,51 @@
+.zigzag-section {
+    padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  background-color: white;
+}
+
+.zigzag-content {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.zigzag-section.reverse .zigzag-content {
+  flex-direction: row-reverse;
+}
+
+.zigzag-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.zigzag-text {
+  max-width: 500px;
+}
+
+.zigzag-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.zigzag-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+
+.zigzag-text button:hover {
+  background-color: #ddd;
+}

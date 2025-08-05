@@ -30,3 +30,9 @@ button:hover {
     cursor: pointer;
     opacity: 0.8;
 }
+
+@media(max-width: 767px){
+ .hero-text {
+    padding: 2em;
+ }
+}

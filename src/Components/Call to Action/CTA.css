@@ -1,0 +1,32 @@
+.cta-section {
+     background: linear-gradient(240deg in oklab, #2e3b4c, #1e2a38);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-container h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cta-container p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #226c3d;
+  color: #1e2a38;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}

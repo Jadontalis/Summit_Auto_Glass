@@ -4,28 +4,29 @@
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  color: white;
 }
 
 body {
- background: #444444;
+  background-color: #1e2a38;
 }
 
 a {
+  height: 2vw;
+  width: 45%;
   text-decoration: none;
   color: inherit;
-  line-height: 1;
+  line-height: 1.5em;
+  padding: 0.3em;
   cursor: pointer;
-  
 }
 
 .container {
- padding: 1em;
+ padding: 5px;
 }
 
 .btn {
-  background: white;
-  color: #212121;
+  background: rgb(30, 129, 59);
+  color: white;
   padding: 14px 25px;
   font-size: 16px;
   border-radius: 0px;

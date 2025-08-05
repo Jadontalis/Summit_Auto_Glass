@@ -1,10 +1,17 @@
 import React from 'react'
-import './Contact.css'
+import Navbar from '../../Components/Navbar/Navbar'
+import { Footer } from '../../Components/Footer/footer'
+import { GradientContact } from '../../Components/Gradient-BG/GradientContact'
+import ContactForm from '../../Components/Contact Form/ContactForm'
+
 
 export function Contact() {
   return (
     <>
-      <h1>This is the contact page</h1>    
+      <Navbar></Navbar>
+      <ContactForm></ContactForm>
+      <Footer></Footer>
     </>
-  )
+  );
 }
+
