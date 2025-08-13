@@ -4,11 +4,12 @@ import { Home } from './Pages/Home'
 import { Contact } from "./Pages/Contact Page/Contact";
 import { Services } from "./Pages/Services Page/Services";
 import { Company } from "./Pages/Company Page/company";
-
+import ScrollToTop from "./Components/Navbar/ScrollToTop";
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop></ScrollToTop>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
