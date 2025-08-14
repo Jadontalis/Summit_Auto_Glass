@@ -3,7 +3,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 import { Footer } from '../../Components/Footer/Footer'
 import { SubpageLayoutCompany } from '../../Components/SubpageLayout/SubpageLayoutCompany'
 import { AltText_Company } from '../../Components/TextSection/AltText_Company'
-import { CTA } from '../../Components/Call to Action/CTA'
+import { CTA } from '../../Components/CallToAction/CTA'
 
 
 export function Company() {
