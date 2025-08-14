@@ -2,6 +2,7 @@ import React from 'react';
 import './HomeContentSection.css';
 import { Link } from 'react-router-dom';
 
+
 export function HomeContentSection() {
   return (
     <section className="services-section">
@@ -16,26 +17,27 @@ export function HomeContentSection() {
 
           <div className="services-grid">
             <Link to="/Services" className="service-card">
-              <div className="service-image" style={{ backgroundImage: 'url(/src/assets/window-2.jpeg)' }}></div>
               <div className="service-content">
-                <h4>Window Replacements</h4>
-                <small>OEM-quality glass replacement for cracked or shattered windows.</small>
+                <img src="/dist/assets/windshield_repair_glass.svg" alt="Rockchip Repairs" className='service-svg'/>
+                <h2>Window Replacements</h2>
+                <p>OEM-quality glass replacement for cracked or shattered windows.</p>
               </div>
             </Link>
 
             <Link to="/Services" className="service-card">
-              <div className="service-image" style={{ backgroundImage: 'url(/src/assets/rockchip.jpg)' }}></div>
               <div className="service-content">
-                <h4>Rockchips</h4>
-                <small>Quick and affordable repairs to prevent cracks from spreading.</small>
+                <img src="/dist/assets/rock_chips_glass.svg" alt="Rockchip Repairs" className='service-svg'/>
+                <h2>Rockchip Repairs</h2>
+                <p>Repairs for small chips to prevent cracks from spreading.</p>
               </div>
             </Link>
 
             <Link to="/Services" className="service-card">
-              <div className="service-image" style={{ backgroundImage: 'url(/src/assets/adas-calibration.jpg)' }}></div>
+
               <div className="service-content">
-                <h4>ADAS Recalibrations</h4>
-                <small>Ensure your vehicle's safety tech is recalibrated and accurate.</small>
+                <img src="/dist/assets/adas_calibration_glass.svg" alt="Rockchip Repairs" className='service-svg'/>
+                <h2>ADAS Recalibrations</h2>
+                <p>Ensure your vehicle's safety tech is recalibrated and accurate.</p>
               </div>
             </Link>
           </div>
