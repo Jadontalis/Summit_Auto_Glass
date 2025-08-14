@@ -1,0 +1,47 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rock Chips (glassmorphism)">
+  <defs>
+    <radialGradient id="rc_glow" cx="70%" cy="60%" r="60%">
+      <stop offset="0%" stop-color="#68f0ff"/>
+      <stop offset="40%" stop-color="#57b5ff" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#b15dff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rc_stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eaffff"/>
+      <stop offset="100%" stop-color="#fff1ff"/>
+    </linearGradient>
+    <linearGradient id="rc_sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".5"/>
+      <stop offset="70%" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softDrop2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="7" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0  0 0 0 0 .45  0 0 0 0 1  0 0 0 .32 0"/>
+      <feOffset dy="6"/>
+      <feComposite in2="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+  <ellipse cx="66" cy="92" rx="62" ry="40" fill="url(#rc_glow)" opacity=".55"/>
+  <rect x="16" y="16" width="96" height="96" rx="24" fill="rgba(255,255,255,0.06)" filter="url(#softDrop2)"/>
+  <rect x="16" y="16" width="96" height="96" rx="24" fill="url(#rc_sheen)" style="mix-blend-mode:screen"/>
+  <rect x="28" y="34" width="72" height="50" rx="6"
+        fill="rgba(255,255,255,.07)" stroke="url(#rc_stroke)" stroke-width="2"/>
+  <rect x="34" y="40" width="60" height="38" rx="4"
+        fill="rgba(255,255,255,.05)" stroke="url(#rc_stroke)" stroke-width="1.2" opacity=".7"/>
+  <g>
+    <circle cx="81" cy="55" r="2.6" fill="#fff"/>
+    <g stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".95">
+      <path d="M81 46.5v8M81 63v-5"/>
+      <path d="M72.5 55H78"/>
+      <path d="M84.5 55H90.5"/>
+      <path d="M76 50l4.5 4.5M86 50l-4.5 4.5M86 60l-4.5-4.5M76 60l4.5-4.5"/>
+    </g>
+    <g stroke="#fff" stroke-opacity=".6" stroke-width="1" stroke-linecap="round">
+      <path d="M90.5 49.5l3.6-1.6"/>
+      <path d="M73.2 58.8l-3.2 1.2"/>
+      <path d="M83.2 63.8l.8 3.2"/>
+    </g>
+    <circle cx="81" cy="55" r="13" fill="#7bd3ff" opacity=".28"/>
+  </g>
+  <path d="M34 44c10-6 26-8 40-7" stroke="#fff" stroke-opacity=".22" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ADAS Calibrations (glassmorphism)">
+  <defs>
+    <radialGradient id="ad_glow" cx="50%" cy="65%" r="60%">
+      <stop offset="0%" stop-color="#67ffd1"/>
+      <stop offset="45%" stop-color="#5bd8ff" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#ff6aa0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ad_stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eaffff"/>
+      <stop offset="100%" stop-color="#fff2ea"/>
+    </linearGradient>
+    <filter id="softDrop3" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0  0 0 0 0 .45  0 0 0 0 1  0 0 0 .35 0"/>
+      <feOffset dy="6"/>
+      <feComposite in2="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="92" rx="62" ry="42" fill="url(#ad_glow)" opacity=".55"/>
+  <rect x="16" y="16" width="96" height="96" rx="24" fill="rgba(255,255,255,0.06)" filter="url(#softDrop3)"/>
+  <path d="M24 32c18-14 62-14 80 0" stroke="#fff" stroke-opacity=".12" stroke-width="8" fill="none"/>
+  <path d="M30 48c3-9 17-14 34-14s31 5 34 14l-3.8 30c-.5 3.7-3.4 6.3-7.1 6.3H41c-3.7 0-6.6-2.6-7.1-6.3L30 48Z"
+        fill="rgba(255,255,255,.07)" stroke="url(#ad_stroke)" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="61" y="46" width="6" height="4.5" rx="1" fill="rgba(255,255,255,.5)"/>
+  <g stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="64" cy="68" r="12" fill="none" stroke-width="2"/>
+    <path d="M64 58v20M54 68h20" stroke-width="1.8"/>
+    <path d="M64 50v4M64 82v4M46 68h4M82 68h4" stroke-width="1.6" opacity=".85"/>
+  </g>
+  <g stroke="#fff" stroke-opacity=".35" fill="none" stroke-width="2">
+    <path d="M26 68c7-13 23-22 38-22s31 9 38 22"/>
+    <path d="M30 68c6-10 20-17 34-17s28 7 34 17" opacity=".6"/>
+  </g>
+  <path d="M38 54c9-6 24-9 26-9 3 0 18 2 26 7" stroke="#fff" stroke-opacity=".22" stroke-width="2" fill="none"/>
+</svg>
