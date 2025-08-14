@@ -61,6 +61,9 @@ export function Footer() {
         <div className="footer-copyright">
             <p>&copy; <b>{new Date().getFullYear()} Summit Auto Glass, LLC</b> | All Rights Reserved.</p>
         </div>
+        <div className='footer-copyright'>
+            <p>Developed by Jaybird Web Design & Development, LLC</p>
+        </div>
       </div>
     </footer>
   );
