@@ -7,7 +7,8 @@ import { Link } from "react-router-dom"
 export function Footer() {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className='gradient-bg'>
+        <div className="container">
         <div className="row">
           {/* Logo Column */}
           <div className="logo-col">
@@ -31,12 +32,12 @@ export function Footer() {
               <Link to="/"><li>Home</li></Link>
               <Link to="/Services"><li>Services</li></Link>
               <Link to="/Company"><li>Our Company</li></Link>
-              <Link to="/Privacy-Policy"><li>Privacy Policy</li></Link>
             </ul>
           </div>
 
 
           {/* Extra Column 
+          <Link to="/Privacy-Policy"><li>Privacy Policy</li></Link>
           <div className="footer-col">
             <h4>online shop</h4>
             <ul>
@@ -65,6 +66,8 @@ export function Footer() {
             <small>Developed by Jaybird Web Design & Development, LLC</small>
         </div>
       </div>
+      </div>
+      
     </footer>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
 import { Footer } from '../../Components/Footer/Footer'
 import { GradientContact } from '../../Components/Gradient-BG/GradientContact'
-import ContactForm from '../../Components/ContactForm/ContactForm'
+import ContactForm from '../../Components/Contact Form/ContactForm'
 
 
 export function Contact() {
