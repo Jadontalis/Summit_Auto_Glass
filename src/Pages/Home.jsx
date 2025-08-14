@@ -1,9 +1,9 @@
 import Navbar from "../Components/Navbar/Navbar"
-import { Hero } from "../Components/Hero Section/hero"
-import { Footer } from "../Components/Footer/footer"
-import { HomeContentSection } from "../Components/Home Main Content Section/HomeContentSection"
-import { AltTextSection } from "../Components/Text Section/AltTextSection"
-import { CTA } from "../Components/Call to Action/CTA"
+import { Hero } from "../Components/HeroSection/hero"
+import { Footer } from "../Components/Footer/Footer"
+import { HomeContentSection } from "../Components/HomeMainContentSection/HomeContentSection"
+import { AltTextSection } from "../Components/TextSection/AltTextSection"
+import { CTA } from "../Components/CallToAction/CTA"
 
 export function Home() {
   return (

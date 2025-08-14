@@ -19,7 +19,7 @@ export function HomeContentSection() {
               <div className="service-image" style={{ backgroundImage: 'url(/src/assets/window-2.jpeg)' }}></div>
               <div className="service-content">
                 <h4>Window Replacements</h4>
-                <p>OEM-quality glass replacement for cracked or shattered windows.</p>
+                <small>OEM-quality glass replacement for cracked or shattered windows.</small>
               </div>
             </Link>
 
@@ -27,7 +27,7 @@ export function HomeContentSection() {
               <div className="service-image" style={{ backgroundImage: 'url(/src/assets/rockchip.jpg)' }}></div>
               <div className="service-content">
                 <h4>Rockchips</h4>
-                <p>Quick and affordable repairs to prevent cracks from spreading.</p>
+                <small>Quick and affordable repairs to prevent cracks from spreading.</small>
               </div>
             </Link>
 
@@ -35,7 +35,7 @@ export function HomeContentSection() {
               <div className="service-image" style={{ backgroundImage: 'url(/src/assets/adas-calibration.jpg)' }}></div>
               <div className="service-content">
                 <h4>ADAS Recalibrations</h4>
-                <p>Ensure your vehicle's safety tech is recalibrated and accurate.</p>
+                <small>Ensure your vehicle's safety tech is recalibrated and accurate.</small>
               </div>
             </Link>
           </div>

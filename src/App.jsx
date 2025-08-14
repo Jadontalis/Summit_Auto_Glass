@@ -1,9 +1,9 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from './Pages/Home'
-import { Contact } from "./Pages/Contact Page/Contact";
-import { Services } from "./Pages/Services Page/Services";
-import { Company } from "./Pages/Company Page/Company";
+import { Contact } from "./Pages/ContactPage/Contact";
+import { Services } from "./Pages/ServicesPage/Services";
+import { Company } from "./Pages/CompanyPage/Company";
 import ScrollToTop from "./Components/Navbar/ScrollToTop";
 
 const App = () => {
