@@ -1,7 +1,9 @@
 import React from 'react';
 import './HomeContentSection.css';
 import { Link } from 'react-router-dom';
-
+import adas from '../HomeMainContentSection/adas_calibration_glass.svg';
+import rockchip from '../HomeMainContentSection/rock_chips_glass.svg';
+import windows from '../HomeMainContentSection/window_glass.svg';
 
 export function HomeContentSection() {
   return (
@@ -18,7 +20,7 @@ export function HomeContentSection() {
           <div className="services-grid">
             <Link to="/Services" className="service-card">
               <div className="service-content">
-                <img src="/src/assets/windshield_repair_glass.svg"className='service-svg'/>
+                <img src={windows} alt="Windshield Replacements" className='service-svg'/>
                 <h2>Window Replacements</h2>
                 <p>OEM-quality glass replacement for cracked or shattered windows.</p>
               </div>
@@ -26,7 +28,7 @@ export function HomeContentSection() {
 
             <Link to="/Services" className="service-card">
               <div className="service-content">
-                <img src="/src/assets/rock_chips_glass.svg"className='service-svg'/>
+                <img src={rockchip} alt="Rockchips" className='service-svg'/>
                 <h2>Rockchip Repairs</h2>
                 <p>Repairs for small chips to prevent cracks from spreading.</p>
               </div>
@@ -35,7 +37,7 @@ export function HomeContentSection() {
             <Link to="/Services" className="service-card">
 
               <div className="service-content">
-                <img src="/src/assets/adas_calibration_glass.svg"className='service-svg'/>
+                <img src={adas} alt="ADAS Recalibrations" className='service-svg'/>
                 <h2>ADAS Recalibrations</h2>
                 <p>Ensure your vehicle's safety tech is recalibrated and accurate.</p>
               </div>
