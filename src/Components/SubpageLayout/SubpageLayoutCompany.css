@@ -1,8 +1,8 @@
 .spl-section {
-    display: flex;
-    background: url(/src/assets/IMG_8381.jpg);
+  display: flex;
+  background: url(/src/assets/IMG_8381.jpg);
   color: white;
-  padding: 60px 20px;
+  padding-bottom: 3em;
   text-align: center;
   width: 100%;
   height: 50vh;

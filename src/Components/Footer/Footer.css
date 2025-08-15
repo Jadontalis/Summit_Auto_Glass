@@ -46,7 +46,9 @@ li:hover {
 	font-weight: 500;
 	position: relative;
   justify-self: center;
+  justify-content: center;
   line-height: 1.5em;
+  text-align: center;
 }
 .footer-col h4::before{
 	content: '';
@@ -56,6 +58,7 @@ li:hover {
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
+	text-align: center;
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
@@ -102,6 +105,16 @@ li:hover {
   display: flex;
   justify-content: center;
   color: white;
+  justify-self: center;
+  flex-wrap: wrap;
+}
+
+.footer-copyright p {
+	text-align: center;
+}
+
+.footer-copyright small {
+	text-align: center;
 }
 
 /*responsive*/
