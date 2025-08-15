@@ -5,7 +5,7 @@ import './SubpageLayout.css'
 
 export function SubpageLayout() {
   return (
-    <section className="spl-section">
+    <section className="spl-service">
       <div className="spl-container">
         <h2>Services</h2>
         <p>Contact us today for quick, reliable, and expert auto glass services.</p>
