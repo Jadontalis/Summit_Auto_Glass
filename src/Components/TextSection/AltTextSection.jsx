@@ -1,6 +1,6 @@
 import React from 'react'
 import './AltTextSection.css'
-
+import team from '../TextSection/rockchip.jpg'
 
 export function AltTextSection() {
 
@@ -8,7 +8,7 @@ export function AltTextSection() {
     <section className='zigzag-section'>
         <div className="zigzag-content">
             <div className="zigzag-image">
-                <img src="./src/assets/rockchip.jpg" alt="" />
+                <img src={team} alt="Team Photo"/>
             </div>
             <div className="zigzag-text">
                 <h2>Our Team</h2>

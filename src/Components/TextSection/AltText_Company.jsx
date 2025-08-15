@@ -1,6 +1,6 @@
 import React from 'react'
 import './AltTextSection.css'
-
+import rockchip from '../TextSection/rockchip.jpg'
 
 export function AltText_Company() {
 
@@ -17,7 +17,7 @@ export function AltText_Company() {
                 <p>Since gaining root in the gallatin valley in 2020. The Summit AG family is a close-knit group of people with one single mission in mind. To provide you the customer with the upmost quality repairs and replacements.</p>
             </div>
             <div className="zigzag-image">
-                <img src="./src/assets/rockchip.jpg" alt="" />
+                <img src={rockchip} alt="Qoleton fixing a rockchip"/>
             </div>
         </div>
     </section>

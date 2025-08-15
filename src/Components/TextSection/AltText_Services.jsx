@@ -1,5 +1,8 @@
 import React from 'react';
 import './AltTextSection.css'
+import adas_services from '../TextSection/adas-calibration.jpg';
+import windshield_repairs from '../TextSection/tractor-glass.jpg';
+import rockchip_repairs from '../TextSection/rockchip.jpg';
 
 export function AltText_Services() {
 
@@ -10,7 +13,7 @@ export function AltText_Services() {
             </div>
         <div className="zigzag-content">
             <div className="zigzag-image">
-                <img src="./src/assets/adas-calibration.jpg" alt="" />
+                <img src={adas_services} alt="ADAS Recalibrations" className='service-svg'/>
             </div>
             <div className="zigzag-text">
                 <h2>ADAS Recalibrations</h2>
@@ -23,12 +26,12 @@ export function AltText_Services() {
                 <p>Your windshield is a critical safety component, providing structural integrity and clear visibility. When it’s cracked or shattered, a full replacement with high-quality glass ensures your vehicle is safe and road-ready. <b>Our glass techs install OEM or OEM equivalent glass with precision and care </b> to restore your car’s protection and appearance.</p>
             </div>
             <div className="zigzag-image">
-                <img src="./src/assets/tractor-glass.jpg" alt="" />
+                <img src={windshield_repairs} alt="Windshield Replacements" className='service-svg'/>
             </div>
         </div>
                 <div className="zigzag-content">
             <div className="zigzag-image">
-                <img src="./src/assets/rockchip.jpg" alt="" />
+                <img src={rockchip_repairs} alt="Rockchips" className='service-svg'/>
             </div>
             <div className="zigzag-text">
                 <h2>Rockchips</h2>
