@@ -76,7 +76,6 @@ export default function ContactForm() {
           <p className="subheading">Belgrade Shop Phone | (406) 750-4992</p>
           <p className="subheading">Billings Shop Phone | (406) 694-9706</p>
           <p className="instruction">Please fill out the form below.</p>
-          <p className="instruction">Please fill out the form below.</p>
 
           <div className="form-grid">
             <input type="text" placeholder="Your Name" {...register("name", { required: true })} />
