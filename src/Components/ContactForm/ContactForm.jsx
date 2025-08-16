@@ -74,6 +74,8 @@ export default function ContactForm() {
         <form onSubmit={handleSubmit(onSubmit)} className="contact-form">
           <h1>Contact Us</h1>
           <p className="subheading">Belgrade Shop Phone | (406) 750-4992</p>
+          <p className="subheading">Billings Shop Phone | (406) 694-9706</p>
+          <p className="instruction">Please fill out the form below.</p>
           <p className="instruction">Please fill out the form below.</p>
 
           <div className="form-grid">
@@ -83,8 +85,8 @@ export default function ContactForm() {
             <input type="year" placeholder="Vehicle Year" {...register("year", { required: true })} />
             <input type="make" placeholder="Make" {...register("make", { required: true })} />
             <input type="model" placeholder="Model" {...register("model", { required: true })} />
-            <input type="vin" placeholder="VIN" {...register("vin", { required: true })} />
-            <input type="plate" placeholder="License Plate" {...register("plate", { required: true })} />
+            <input type="vin" placeholder="VIN" {...register("vin", { required: false })} />
+            <input type="plate" placeholder="License Plate" {...register("plate", { required: false })} />
           </div>
 
           <textarea placeholder="Message..." rows="5" {...register("message", { required: true })}></textarea>
