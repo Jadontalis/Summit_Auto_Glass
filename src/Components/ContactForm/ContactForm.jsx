@@ -115,7 +115,7 @@ export default function ContactForm() {
             />
 
             <div className="form-field">
-              <label htmlFor="Glass Type">Glass Type </label>
+              <label htmlFor="Glass Type">glass-type</label>
                 <select
                   id="glass-type"
                   defaultValue=""
