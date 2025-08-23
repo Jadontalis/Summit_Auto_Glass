@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
-import './ContactForm.css';
+import "./ContactForm.css";
 
 export default function ContactForm() {
   const { register, reset, handleSubmit } = useForm();
@@ -29,9 +29,7 @@ export default function ContactForm() {
   });
 
   useEffect(() => {
-    const handleMouseMove = (e) => {
-      setMousePos({ x: e.clientX, y: e.clientY });
-    };
+    const handleMouseMove = (e) => setMousePos({ x: e.clientX, y: e.clientY });
     window.addEventListener("mousemove", handleMouseMove);
     return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
@@ -46,10 +44,7 @@ export default function ContactForm() {
               <feColorMatrix
                 in="blur"
                 type="matrix"
-                values="1 0 0 0 0  
-                        0 1 0 0 0  
-                        0 0 1 0 0  
-                        0 0 0 18 -8"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
                 result="goo"
               />
               <feBlend in="SourceGraphic" in2="goo" />
@@ -77,18 +72,67 @@ export default function ContactForm() {
           <p className="subheading">Billings Shop Phone | (406) 694-9706</p>
           <p className="instruction">Please fill out the form below.</p>
 
-          <div className="form-grid">
-            <input type="text" placeholder="Your Name" {...register("name", { required: true })} />
-            <input type="email" placeholder="Your Email" {...register("email", { required: true })} />
-            <input type="phone" placeholder="Phone Number" {...register("phone", { required: true })} />
-            <input type="year" placeholder="Vehicle Year" {...register("year", { required: true })} />
-            <input type="make" placeholder="Make" {...register("make", { required: true })} />
-            <input type="model" placeholder="Model" {...register("model", { required: true })} />
-            <input type="vin" placeholder="VIN" {...register("vin", { required: false })} />
-            <input type="plate" placeholder="License Plate" {...register("plate", { required: false })} />
+          <div className="form-grid">      
+            <input
+              type="text"
+              placeholder="Your Name"
+              {...register("name", { required: true })}
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              {...register("email", { required: true })}
+            />
+            <input
+              type="tel"
+              placeholder="Phone Number"
+              {...register("phone", { required: true })}
+            />
+            <input
+              type="number"
+              placeholder="Vehicle Year"
+              {...register("year", { required: true })}
+            />
+            <input
+              type="text"
+              placeholder="Make"
+              {...register("make", { required: true })}
+            />
+            <input
+              type="text"
+              placeholder="Model"
+              {...register("model", { required: true })}
+            />
+            <input
+              type="text"
+              placeholder="VIN"
+              {...register("vin")}
+            />
+            <input
+              type="text"
+              placeholder="License Plate"
+              {...register("plate")}
+            />
+
+            <div className="form-field">
+              <label htmlFor="glass-type">Glass Type </label>
+                <select
+                  id="glass-type"
+                  defaultValue=""
+                  {...register("glass-type", { required: true })}
+                >
+                <option value="" disabled> Select an option</option>
+                  <option value="oem">OEM</option>
+                  <option value="aftermarket">Aftermarket</option>
+                </select>
+            </div>
           </div>
 
-          <textarea placeholder="Message..." rows="5" {...register("message", { required: true })}></textarea>
+          <textarea
+            placeholder="Message..."
+            rows="5"
+            {...register("message", { required: true })}
+          ></textarea>
 
           <button type="submit">Submit Form</button>
         </form>
