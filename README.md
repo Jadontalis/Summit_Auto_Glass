@@ -9,7 +9,6 @@ COPYRIGHT STATEMENT AND TERMS OF USAGE
 
 This repository and its associated code are only to be shared with those with explicit permission from the maintainer/creator of this repository, or an employee/employer at Summit Auto Glass, LLC. By accessing this GitHub repository and anything committed to it herein, you must comply with the above statement. Breaking this is a violation of company policy and the terms and conditions set by the creator of this codebase.
 
-
 -----------------------------------------------------
 
 # DOCUMENTATION
