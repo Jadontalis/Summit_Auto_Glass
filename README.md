@@ -13,7 +13,7 @@ This repository and its associated code are only to be shared with those with ex
 
 # DOCUMENTATION
 
----> *Frontend* <---
+---> *Website Deployment* <---
 
 Deployed website with AWS with Route 53 for hosting, Amplify for deployment, and CloudFront as CDN. This is CI/CD'd in tandem with this GitHub repository and a React.js framework for the customer-facing website.
 
