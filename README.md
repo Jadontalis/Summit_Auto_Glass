@@ -16,20 +16,12 @@ This repository and its associated code are only to be shared with those with ex
 
 ---> *Frontend* <---
 
-Part of the frontend stack is deployed via Amazon Web Services. That's accomplished using Route 53 for domain reg. and parking, Amplify for deployment, and CloudFront for content delivery. This is CI/CD'd in tandem with this GitHub repository and a React.js framework for the customer-facing website, as well as an internal employee software dashboard.
-
----> *Backend* <---
-
-For backend goodies, MongoDB was the NoSQL choice to handle the database with JVM Spring Boot to bridge the gap between the back and frontend. Overall, a very classic tech stack that is straightforward to implement and scale. Refactoring may become an issue, but as SuperFastMatt puts it, "Certified Good Enough" 😉.
+Deployed website with AWS with Route 53 for hosting, Amplify for deployment, and CloudFront as CDN. This is CI/CD'd in tandem with this GitHub repository and a React.js framework for the customer-facing website.
 
 -----------------------------------------------------
 
 
 # React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
