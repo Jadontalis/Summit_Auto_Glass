@@ -1,4 +1,4 @@
-                                                                                              # Summit Auto Glass 
+# Summit Auto Glass 
                         
 
 # __License__
