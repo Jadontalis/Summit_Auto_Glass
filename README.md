@@ -2,7 +2,7 @@
 Software/ Web Application 
 
 
-__License__
+# __License__
 
 # Copyright (c) 2025 Jaden Hampton, Summit Auto Glass, LLC
 
